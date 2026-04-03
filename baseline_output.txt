@@ -1,0 +1,70 @@
+[0/2] Re-checking globbed directories...
+[1/3] Building CXX object scratch/CMakeFiles/scratch_wifi_qos_without_ml.dir/wifi_qos_without_ml.cc.o
+/home/ubuntu/ns-3-dev/scratch/wifi_qos_without_ml.cc: In function ‘int main(int, char**)’:
+/home/ubuntu/ns-3-dev/scratch/wifi_qos_without_ml.cc:125:13: warning: unused variable ‘priority’ [-Wunused-variable]
+  125 |         int priority = 1;
+      |             ^~~~~~~~
+[2/3] Linking CXX executable /home/ubuntu/ns-3-dev/build/scratch/ns3-dev-wifi_qos_without_ml-default
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+Node 0 | pktSize=200 | interval=20 | Priority=UNIFORM
+Node 1 | pktSize=1400 | interval=40 | Priority=UNIFORM
+Node 2 | pktSize=1500 | interval=10 | Priority=UNIFORM
+Node 3 | pktSize=800 | interval=200 | Priority=UNIFORM
+Node 4 | pktSize=300 | interval=1000 | Priority=UNIFORM
+Node 5 | pktSize=200 | interval=20 | Priority=UNIFORM
+Node 6 | pktSize=1400 | interval=40 | Priority=UNIFORM
+Node 7 | pktSize=1500 | interval=10 | Priority=UNIFORM
+Node 8 | pktSize=800 | interval=200 | Priority=UNIFORM
+Node 9 | pktSize=300 | interval=1000 | Priority=UNIFORM
+Running BASELINE (No ML) simulation...
+Packet received at time: 2.00859
+Packet received at time: 2.02007
+Packet received at time: 2.04006
+Packet received at time: 2.06006
+Packet received at time: 2.08007
+Packet received at time: 2.10639
+Packet received at time: 2.14008
+Packet received at time: 2.18008
+Packet received at time: 2.20645
+Packet received at time: 2.21008
+Packet received at time: 2.22036
+Packet received at time: 2.22055
+Packet received at time: 2.23008
+Packet received at time: 2.24008
+Packet received at time: 2.26008
+Packet received at time: 2.30238
+Packet received at time: 2.40651
+Packet received at time: 2.50006
+Packet received at time: 2.50339
+Packet received at time: 2.52006
+Packet received at time: 2.54006
+Packet received at time: 2.56006
+Packet received at time: 2.58007
+Packet received at time: 2.60848
+Packet received at time: 2.64008
+Packet received at time: 2.68008
+Packet received at time: 2.70007
+Packet received at time: 2.70247
+Packet received at time: 2.71008
+Packet received at time: 2.72038
+Packet received at time: 2.72068
+Packet received at time: 2.73008
+Packet received at time: 2.74008
+Packet received at time: 2.76008
+Packet received at time: 2.80553
+Packet received at time: 2.90006
+Packet received at time: 2.90754
+Packet received at time: 3.00007
+Packet received at time: 3.10006
+Packet received at time: 3.20006
+Packet received at time: 3.40028
+Packet received at time: 3.40052
+Packet received at time: 3.60007
+Packet received at time: 3.90007
+Packet received at time: 4.40006
+Packet received at time: 4.90007
+Packet received at time: 5.40006
+Packet received at time: 5.90006
+Packet received at time: 6.40007
+Packet received at time: 6.90006
